@@ -54,7 +54,7 @@ function searchWeather (city) {
       'src',
       'https://openweathermap.org/img/wn/' +
         response.weather[0].icon.toString () +
-        '@2x.png'
+        '@2x.png' //larger icon
     );
 
     $ ('#city-name')
@@ -119,11 +119,9 @@ this is gives every day - thank you stack overflow */
       for (var i = 0; i < list.length; i += 8) {
         var date = list[i].dt_txt.split (' ')[0];
         var dateArr = date.split ('-');
-
         //for each day of the forecast we get an array with dates
         //convert date into readable format - instead of "2021", "07", "24"
         var dateForecast = dateArr[1] + '/' + dateArr[2] + '/' + dateArr[0];
-        var time = list[i].dt_txt.split (' ')[1];
         {
           temp = list[i].main.temp;
           humidity = list[i].main.humidity;
@@ -140,7 +138,7 @@ this is gives every day - thank you stack overflow */
           var iconPng = $ ('<img>')
             .attr (
               'src',
-              'http://openweathermap.org/img/wn/' + icon + '@2x.png'
+              'http://openweathermap.org/img/wn/' + icon + '@2x.png' 
             )
             .addClass ('mx-auto d-block');
 
