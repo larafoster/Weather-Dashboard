@@ -11,7 +11,7 @@ This weather app runs in the browser and features dynamically updated HTML and C
 
 ## Mock-Up
 
-The following image shows the web application's appearance and functionality:
+The following images shows the web application's appearance and functionality. The first image is desktop view and the second image is mobile view.
 
 ![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Columbus, Ohio.]
 ![screenshot of desktop index.html](./assets/img/fullscreen.png)
