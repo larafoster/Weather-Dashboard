@@ -4,7 +4,7 @@
   --gray-dark: #6f6866;
   --dark: #222;
   --blue-dk: #003049ff;
-  --blue-md: rgb(55, 124, 161);
+  --blue-md: #0dcaf0;
 --red: #d62828ff;
 --orange: #f77f00ff;
 --yellow: #fcbf49ff;
@@ -39,7 +39,7 @@ body {
 
 .hero {
   padding: 5% 4% 1% 4%;
-  background-color: var(--orange);
+  background-color: var(--blue-md);
   color: var(--light);
 }
 
