@@ -14,19 +14,15 @@
 body {
     font-family: 'Noto Sans JP', sans-serif;
 }
-.alert {
-    margin-top: 15px;
-}
 
-.bg-light {
-    background-color: #f8f9fa!important;
-    border-right: 1px solid #ddd;
-    width: 380px;
-}
 .brd-btm {
     border-bottom: 1px solid #ddd;
 }
 
+#city-card .card {
+        padding: 10px;
+
+}
 .days.card {
     padding: 1rem;
 }
@@ -49,14 +45,16 @@ body {
 }
 
 /* button colors */
+
+.btn {
+    color: var(--light);
+}
 .btnYellow{
     background-color: var(--yellow);
           color: var(--dark)
 
 }
-.btn {
-    color: var(--light);
-}
+
 .btnOrange{
     background-color: var(--orange);
           color: var(--light)
@@ -89,4 +87,5 @@ body {
 .card {
     padding: 0;
 }
+
 }
